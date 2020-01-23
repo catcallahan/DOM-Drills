@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let button = document.getElementsByTagName('button');
 
-  
+
 
     function newListItem() {
         let unorderedList = document.createElement('ul');
@@ -63,9 +63,10 @@ document.addEventListener("DOMContentLoaded", function () {
         listItem1.addEventListener('click', function () {
 
             listItem1.style.color = colors[Math.floor(Math.random() * colors.length)]
-    
+
         });
-        function rmvListItem(){
+
+        function rmvListItem() {
             document.body.removeChild(unorderedList)
         }
 
@@ -79,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
         newListItem();
     })
 
-    
+
 
 
 
